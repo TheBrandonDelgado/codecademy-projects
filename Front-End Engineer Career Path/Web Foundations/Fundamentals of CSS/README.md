@@ -1,0 +1,2 @@
+# Fundamentals of CSS
+Add some flair to your sites with Cascading Style Sheets (CSS). You'll learn the fundamentals, which include: how to create rulesets, styling, position, layouts, and more to make your sites stand out.
