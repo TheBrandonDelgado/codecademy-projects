@@ -1,0 +1,2 @@
+# Making a Website Responsive
+Sites show up on all different types of devices, like: desktops, cellphones, laptops, etc. Incorporate responsive design to create a site that adapts to your users' different screen sizes.
