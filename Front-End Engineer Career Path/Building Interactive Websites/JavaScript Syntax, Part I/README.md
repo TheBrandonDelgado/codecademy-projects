@@ -1,0 +1,2 @@
+# JavaScript Syntax, Part I
+JavaScript empowers you to add logic to your website and create a truly interactive site. Start with the basics of variables, data types, conditionals, functions, and scope.
