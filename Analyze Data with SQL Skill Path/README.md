@@ -1,0 +1,2 @@
+# Analyze Data with SQL
+All companies use data now, and most of it is stored in databases. In this Skill Path, you will use SQL queries to create databases, pull data from databases, and analyze the results. You will practice your skills with real-world marketing and user analysis case studies, and prepare for technical interviews.
