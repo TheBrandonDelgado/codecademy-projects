@@ -1,0 +1,65 @@
+SET
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+restaurant_name|street_number|street_name|telephone
+Bytes of China|2020|Busy Street|6175551212
+(1 row)
+best_rating|description
+5.0|Would love to host another birthday party at Bytes of China!
+(1 row)
+dish_name|price|category
+Chicken with Broccoli|$6.95|Chicken
+Chicken Wings|$6.95|Chicken
+Chicken with Broccoli|$8.95|Luncheon Specials
+Beef with Garlic Sauce|$8.95|Luncheon Specials
+Fresh Mushroom with Snow Peapods and Baby Corns|$8.95|Luncheon Specials
+Sesame Chicken|$15.95|House Specials
+Special Minced Chicken|$16.95|House Specials
+Hunan Special Half & Half|$17.95|House Specials
+(8 rows)
+category|dish_name|price
+Chicken|Chicken with Broccoli|$6.95
+Chicken|Chicken Wings|$6.95
+House Specials|Hunan Special Half & Half|$17.95
+House Specials|Sesame Chicken|$15.95
+House Specials|Special Minced Chicken|$16.95
+Luncheon Specials|Chicken with Broccoli|$8.95
+Luncheon Specials|Beef with Garlic Sauce|$8.95
+Luncheon Specials|Fresh Mushroom with Snow Peapods and Baby Corns|$8.95
+(8 rows)
+spicy_dish_name|category|price
+Chicken Wings|Chicken|$6.95
+Hunan Special Half & Half|House Specials|$17.95
+Beef with Garlic Sauce|Luncheon Specials|$8.95
+(3 rows)
+dish_name|dish_count
+Chicken with Broccoli|2
+(1 row)
