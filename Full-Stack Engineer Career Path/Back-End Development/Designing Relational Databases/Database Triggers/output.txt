@@ -1,0 +1,49 @@
+SET
+customer_id|first_name|last_name|email_address|home_phone|city|state_name|years_old
+1|Edward|Lewis|Edward.Lewis@example.com|202-555-0264|Pittsburgh|Pennsylvania|82
+2|Frances|Campbell|Frances.Campbell@example.com|202-555-0073|North Las Vegas|Nevada|10
+3|Dennis|Hall|Dennis.Hall@example.com|202-555-0424|Chula Vista|California|21
+(3 rows)
+changed_by|time_changed|change_type
+(0 rows)
+CREATE TRIGGER
+UPDATE 1
+UPDATE 1
+customer_id|first_name|last_name|email_address|home_phone|city|state_name|years_old
+1|Edward|Lewis|Edward.Lewis@example.com|202-555-0264|Pittsburgh|Pennsylvania|82
+2|Frances|Campbell|Frances.Campbell@example.com|202-555-0073|North Las Vegas|Nevada|10
+3|Steve|Hall|test@test.com|202-555-0424|Chula Vista|California|21
+(3 rows)
+changed_by|time_changed|change_type
+ccuser|2024-03-08 21:38:00|UPDATE
+(1 row)
+CREATE TRIGGER
+INSERT 0 3
+customer_id|first_name|last_name|email_address|home_phone|city|state_name|years_old
+1|Edward|Lewis|Edward.Lewis@example.com|202-555-0264|Pittsburgh|Pennsylvania|82
+2|Frances|Campbell|Frances.Campbell@example.com|202-555-0073|North Las Vegas|Nevada|10
+3|Steve|Hall|test@test.com|202-555-0424|Chula Vista|California|21
+4|Jeffrey|Cook|||||66
+5|Arthur|Turner|||||49
+6|Nathan|Cooper|||||72
+(6 rows)
+changed_by|time_changed|change_type
+ccuser|2024-03-08 21:38:00|UPDATE
+ccuser|2024-03-08 21:38:00|INSERT
+(2 rows)
+UPDATE 1
+UPDATE 1
+UPDATE 1
+customer_id|first_name|last_name|email_address|home_phone|city|state_name|years_old
+1|Edward|Lewis|Edward.Lewis@example.com|202-555-0264|Pittsburgh|Pennsylvania|12
+2|Frances|Campbell|Frances.Campbell@example.com|202-555-0073|North Las Vegas|Nevada|10
+3|Steve|Hall|test@test.com|202-555-0424|Chula Vista|California|14
+4|Melvin|Cook|||||12
+5|Arthur|Turner|||||49
+6|Nathan|Cooper|||||72
+(6 rows)
+changed_by|time_changed|change_type
+ccuser|2024-03-08 21:38:00|UPDATE
+ccuser|2024-03-08 21:38:00|INSERT
+ccuser|2024-03-08 21:38:00|UPDATE
+(3 rows)
