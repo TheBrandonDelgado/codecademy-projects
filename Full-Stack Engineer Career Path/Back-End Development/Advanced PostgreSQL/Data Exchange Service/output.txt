@@ -1,0 +1,22 @@
+SET
+CREATE ROLE
+CREATE ROLE
+GRANT
+GRANT
+GRANT
+GRANT
+CREATE POLICY
+ALTER TABLE
+SET
+dataset_id|owner|download_timestamp
+1e93a40e-9b25-4fe7-a47d-caea273c119d|abc_open_data|2020-02-12 01:59:00
+2b8b616e-a684-4ba4-8ea4-119206794f2a|abc_open_data|2020-02-20 14:59:00
+0bd65fd0-94b7-429c-8ac3-5fabc2c25e71|abc_open_data|2020-03-01 15:21:00
+0bd65fd0-94b7-429c-8ac3-5fabc2c25e71|abc_open_data|2020-02-24 13:50:00
+40052b4e-707a-4fd2-97bd-a60901e54853|abc_open_data|2020-02-07 17:37:00
+a1afb169-65bf-4838-8d7c-570fbd175b5a|abc_open_data|2020-02-18 12:13:00
+1e93a40e-9b25-4fe7-a47d-caea273c119d|abc_open_data|2020-02-21 20:40:00
+a1afb169-65bf-4838-8d7c-570fbd175b5a|abc_open_data|2020-02-01 00:35:00
+aa1e7db8-7b94-4b87-a13e-ce4530bbaed1|abc_open_data|2020-02-20 19:14:00
+9610598e-4cbe-40df-92ac-23a7e2c29d5b|abc_open_data|2020-02-22 12:48:00
+(10 rows)
