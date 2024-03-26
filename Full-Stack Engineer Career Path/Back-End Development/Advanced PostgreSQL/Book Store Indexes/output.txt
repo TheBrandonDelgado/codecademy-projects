@@ -1,0 +1,14 @@
+SET
+CREATE INDEX
+CREATE INDEX
+QUERY PLAN
+Seq Scan on books  (cost=0.00..14.12 rows=2 width=125) (actual time=0.011..0.028 rows=5 loops=1)
+  Filter: ((original_language)::text = 'French'::text)
+  Rows Removed by Filter: 160
+Planning time: 0.180 ms
+Execution time: 0.046 ms
+(5 rows)
+pg_size_pretty
+56 kB
+(1 row)
+CREATE INDEX
