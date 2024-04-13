@@ -1,0 +1,54 @@
+SET
+pg_size_pretty
+1192 kB
+(1 row)
+pkey_size|location_size
+712 kB|448 kB
+(1 row)
+pg_size_pretty
+2352 kB
+(1 row)
+UPDATE 10000
+pg_size_pretty
+2344 kB
+(1 row)
+pkey_size|location_size
+1472 kB|760 kB
+(1 row)
+pg_size_pretty
+4576 kB
+(1 row)
+VACUUM
+pg_size_pretty
+2352 kB
+(1 row)
+pkey_size|location_size
+1472 kB|760 kB
+(1 row)
+pg_size_pretty
+4584 kB
+(1 row)
+COPY 1000
+pg_size_pretty
+2352 kB
+(1 row)
+VACUUM
+pg_size_pretty
+1272 kB
+(1 row)
+DELETE 2418
+pg_size_pretty
+1272 kB
+(1 row)
+TRUNCATE TABLE
+COPY 10000
+COPY 1000
+pg_size_pretty
+1296 kB
+(1 row)
+pkey_size|location_size
+800 kB|496 kB
+(1 row)
+pg_size_pretty
+2592 kB
+(1 row)
